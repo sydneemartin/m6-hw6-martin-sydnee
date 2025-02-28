@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    fispbackground-image: url('../images/ep_naturalwhite.jpeg');
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: olive;
+    padding: 40px 0;
+    border-bottom: 3px solid orange;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+}
+
+p {
+    margin: 15px;
+
+}
+nav{
+    float: right;
+    max-width: 800px;
+}
+   
+
+nav a{
+    color: white ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main{
+    background-color: #0772;
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: lightgoldenrodyellow;
+    float: right;
+    width: 20%;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+.main content {
+    margin: 40px auto;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200;
+}
+
+aside img {
+    box-shadow: 3px 3px 6px black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: beige;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: brown;
+    font-size: 16px;
+}
